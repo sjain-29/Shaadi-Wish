@@ -23,10 +23,10 @@ export const APP = {
 
 // Firebase console -> Project settings -> Your apps -> Web app -> "Config".
 export const firebaseConfig = {
-  apiKey: 'PASTE_YOUR_API_KEY',
+  apiKey: 'AIzaSyCYd_yZuuAtZyA_cIvBVYsLTdXTRh0f2qE',
   authDomain: 'wedding-gift-ca42d.firebaseapp.com',
   databaseURL: 'https://wedding-gift-ca42d-default-rtdb.asia-southeast1.firebasedatabase.app',
   projectId: 'wedding-gift-ca42d',
-  messagingSenderId: 'PASTE_YOUR_SENDER_ID',
-  appId: 'PASTE_YOUR_APP_ID',
+  messagingSenderId: '1020073289254',
+  appId: '1:1020073289254:web:440cc37dfbf3ba930b28e7',
 };
