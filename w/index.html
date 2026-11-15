@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Opening the wishlist…</title>
+<meta property="og:title" content="Our wedding wishlist"><meta property="og:description" content="Explore the wedding wishlist and send your blessings.">
+<script>
+// Short link: /w/?couple-name  ->  /public-wishlist.html?w=couple-name
+var slug = (location.search.slice(1).split('&')[0] || '').replace(/[^a-zA-Z0-9-]/g, '');
+location.replace('../' + (slug ? 'public-wishlist.html?w=' + slug.toLowerCase() : 'index.html'));
+</script></head><body><p style="font-family:sans-serif;text-align:center;padding:40px">Opening the wishlist…</p></body></html>
